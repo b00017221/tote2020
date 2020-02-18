@@ -1,0 +1,141 @@
+header 
+    position: relative
+    background-color: rgba(0,0,0,0.4)        
+    nav
+        position: fixed
+        width: 100%
+        height: 50px     
+        background-color: #212121
+        z-index: 5           
+        .menu
+            display: flex
+            justify-content: space-between
+            padding: 13px 70px
+            margin: 0
+            list-style-type: none
+            &_link
+                color: #ffffff
+                font-size: 15px
+                font-weight: 300
+                &:hover
+                    text-decoration: none
+                    color: $main-color
+            &_item
+                border-right: 2px dotted black
+                padding-right: 28px
+                &:last-child
+                    border-right: none 
+    .subheader 
+        position: absolute
+        top: 50px
+        width: 100%
+        height: 84px
+        background-color: rgba(0, 0, 0, 0.6)
+        &_logo 
+            height: 60px
+            width: 180px
+            background: url('../logo/logo2.png') center center/cover no-repeat  
+            margin-top: 7px;
+        &_text
+            line-height: 84px
+            color: white           
+        &_user
+            margin-top: 17px
+            height: 50px
+            width: 50px
+            background: url('../icons/users.png') center center/cover no-repeat  
+            border: none
+            border-radius: 4px
+            &:hover
+                border-style: solid
+                border-color: #ffffff       
+
+.all_groups
+    min-height: 600px
+    background: url('../img/football1.jpg') center center/cover no-repeat      
+    &_mt
+        height: 145px  
+
+.group-a-bgc 
+    background-color: rgba(0, 0,255, 0.2)
+    color: #FFFFFF
+.group-b-bgc 
+    background-color: rgba(0, 128,0, 0.2)
+    color: #FFFFFF
+.group-c-bgc 
+    background-color: rgba(0, 0,0, 0.2)
+    color: #FFFFFF
+.group-d-bgc 
+    background-color: rgba(255, 0,0, 0.2)
+    color:#FFFFFF
+.group-e-bgc 
+    background-color: rgba(75, 0,130, 0.2)
+    color:#FFFFFF
+.group-f-bgc 
+    background-color: rgba(255, 255,0, 0.2)
+    color: #FFFFFF
+
+.group-lst 
+    list-style-type: none
+    font-size: 24px
+    font-weight: 700
+.flag 
+    height: 24px
+    width: 24px
+
+.games 
+    min-height: 800px
+    background: url('../img/football4.jpg') center center/cover no-repeat
+    font-size: 17px
+    font-weight: 300 
+    .placegame 
+        padding-top: 2px
+        span 
+            display: block
+            font-size: 11px                  
+    .timegame        
+        text-align: $tac  
+        padding-top: $pt6    
+    .team1
+        padding-top: $pt6
+        text-align: $tar
+    .blank
+        padding-top: $pt6
+        text-align: $tac
+    .team2
+        padding-top: $pt6
+    .score1
+        text-align: $tar
+        padding-top: $pt6
+    .score2
+        padding-top: $pt6 
+
+.header-2
+    height: 80px
+    background: url('../img/bg_header.jpg') center center/cover no-repeat
+    .head-h2 
+        margin: 0 auto
+        padding-top: 20px
+        h2 
+            color: #ffffff
+            font-size: 36px
+            font-weight: 700
+            text-transform: uppercase
+            text-align: center
+
+.players
+    min-height: 800px
+    background: url('../img/football3.jpg') center center/cover no-repeat
+    color: #ffffff
+    font-size: 24px
+    font-weight: 700
+    .player
+        color: #ffffff
+        &:hover
+            text-decoration: none
+            color: $main-color
+    &_head
+        font-size: 18px
+        font-weight: 300
+        
+        
